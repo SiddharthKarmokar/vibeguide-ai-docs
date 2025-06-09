@@ -90,7 +90,7 @@ Our advanced AI understands the subtle art of cultural navigation, helping you:
 
     ---
 
-    Find answers to common questions and get support when you need it.
+    Find answers to common questions and get support when you need it .
 
     [:octicons-arrow-right-24: Support](support/faq.md)
 
