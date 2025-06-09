@@ -2,9 +2,11 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -42,9 +44,6 @@ jobs:
 
       - name: Build MkDocs site
         run: mkdocs build --verbose --clean --strict
-
-      - name: "Debug: Check site directory"
-        run: ls -la ./site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
